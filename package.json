@@ -1,0 +1,12 @@
+{
+  "name": "Kiwi",
+  "version": "1.0.0",
+  "description": "Kiwi bot for kiwi",
+  "main": "index.js",
+  "author": "Martian",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/rest": "^1.1.0",
+    "discord.js": "^14.3.0"
+  }
+}
