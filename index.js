@@ -1,7 +1,8 @@
 
 const { Client, GatewayIntentBits, Partials, ActivityType } = require('discord.js');
 const { token, kiwi } = require('./config.json');
-const activities = [`NOW WITH EXTRA KIWIS!! 🥝`, `🥝🥝🥝🥝🥝`, `KIWI 🥝 KIWI 🥝 KIWI 🥝`, `MINECRAFT (WITH KIWI) 🥝😼`, `no se algo con kiwis 🥝🥝🥝`, `Aaahh!!! Real Kiwis 🥝👺`, `🥝🥝SANKLO PELADO PUTO🥝🥝`];
+const activities = [`NOW WITH EXTRA KIWIS!! 🥝`, `🥝🥝🥝🥝🥝`, `WHAT ABOUT KIWI?`, `KIWI 🥝 KIWI 🥝 KIWI 🥝`, `MINECRAFT (WITH KIWI) 🥝😼`, `no se algo con kiwis 🥝🥝🥝`, `Aaahh!!! Real Kiwis 🥝👺`, `🥝🥝SANKLO PELADO PUTO🥝🥝`];
+
 
 
 const client = new Client({
@@ -40,7 +41,7 @@ client.on('ready', () => {
 
 
 client.on('messageCreate', async (message) =>{
-    
+
     //debug 
     //console.log(message);
     if(message.author.bot) return;
