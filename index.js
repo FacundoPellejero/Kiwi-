@@ -40,6 +40,7 @@ client.on('ready', () => {
 
 
 client.on('messageCreate', async (message) =>{
+    
     //debug 
     //console.log(message);
     if(message.author.bot) return;
@@ -50,9 +51,10 @@ client.on('messageCreate', async (message) =>{
             console.log('kiwi borro el mensaje' + error)
         }
     }
-    else{
-        console.log('no es kiwi');
-    }
+    //debug
+    // else{
+    //     console.log('no es kiwi');
+    // }
 })
 
 
