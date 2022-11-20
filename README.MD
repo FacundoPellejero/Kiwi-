@@ -5,6 +5,6 @@
 ### Run :
 
 ```
-$> npm update 
+$> npm install 
 $> node .
 ```
